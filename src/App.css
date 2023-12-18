@@ -1,0 +1,80 @@
+.nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  height: 91px;
+  align-self: center;
+  background: #21222a;
+  color: #deebf8;
+  font-family: 'Inter', sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 19px;
+  letter-spacing: 0em;
+  text-align: right;
+  padding-inline: 50px;
+}
+
+.navLogo {
+  display: flex;
+  align-self: center;
+}
+
+.navLogo > h1 {
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 27px;
+  letter-spacing: -0.05em;
+  text-align: left;
+  color: #61dafb;
+}
+
+.nav > h2 {
+  align-self: center;
+}
+
+.mainContainer > h1 {
+  margin: 0;
+  color: #ffffff;
+  font-family: 'Inter', sans-serif;
+  font-size: 39px;
+  font-weight: 700;
+  line-height: 47px;
+  letter-spacing: -0.05em;
+  text-align: left;
+}
+
+.mainContainer {
+  
+  padding: 50px;
+  height: 100rem;
+}
+
+body{
+  background: #282d35;
+  height: 100vh;
+}
+.mainList {
+  color: #61dafb;
+  font-family: 'Inter', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.mainList> li{
+  padding: 0.5rem;
+}
+span {
+  color: #ffffff;
+}
+
+
+.mainContainer{
+  background-image: url("../src/Group.png");
+  background-repeat:no-repeat;
+  background-position: right 5%;
+  background-size: 200px;
+}
